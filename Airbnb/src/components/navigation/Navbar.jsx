@@ -1,4 +1,4 @@
-import Logo from '../../assets/airbnb.svg'
+import Logo from '../../../public/assets/airbnb.svg'
 export default function Navbar() {
     return(
         <nav>

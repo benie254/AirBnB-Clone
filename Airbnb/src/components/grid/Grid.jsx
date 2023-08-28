@@ -1,4 +1,4 @@
-import PhotoGrid from '../../assets/photo-grid.png'
+import PhotoGrid from '../../../public/assets/photo-grid.png'
 
 export default function Grid() {
     return(
