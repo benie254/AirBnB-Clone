@@ -12,6 +12,7 @@ import AirbnbData from './AirbnbData'
     const airBnb = AirbnbData.map(
       bnb => 
       <Card
+        key={bnb.id}
         id={bnb.id}
         title={bnb.title}
         description={bnb.description}
@@ -23,7 +24,7 @@ import AirbnbData from './AirbnbData'
       />
     )
   return (
-    <div>
+    <div className="cards-list">
       {airBnb}
     </div>
   )
